@@ -189,6 +189,17 @@ body{font-size:0.9688rem}section{padding-top:52px}.hero{padding-top:28px}
 .txt p,.txt .bq,section p,section li{text-align:justify;text-justify:inter-word;hyphens:auto;-webkit-hyphens:auto}
 section .sub,section .ctr,section .ctr2,section .hint,section .stats *,section .rm,section .cn{text-align:inherit;hyphens:manual;-webkit-hyphens:manual}
 section .sub{text-align:center}
+/* experience logos */
+.tl .ih{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:4px 16px;align-items:start}
+.tl .ih h3{margin-top:2px}
+.lg{width:56px;height:56px;border-radius:12px;background:#fff;border:1px solid var(--line);display:grid;place-items:center;overflow:hidden;padding:7px}
+.lg img{width:100%;height:100%;object-fit:contain}.lg.wide{padding:5px}.lg.tight{padding:3px}
+.lg.mono{background:var(--grad);border:0}.lg.mono b{font:700 1.125rem/1 Sora;color:#fff;letter-spacing:-.02em}
+.tl .ih .dt{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;background:var(--surf2);border:1px solid var(--line);border-radius:99px;padding:6px 12px;color:var(--fg);font-size:0.75rem}
+.tl .ih .dt svg{width:13px;height:13px;flex:none}
+.tl .it>p,.tl .it>ul{margin-left:72px}.tl .it>.tags{margin-left:72px}
+.tl .it::before{top:22px}
+@media(max-width:700px){.tl .ih{grid-template-columns:48px minmax(0,1fr)}.lg{width:48px;height:48px;padding:6px}.tl .ih .dt{grid-column:1/-1;justify-self:start;margin-top:6px}.tl .it>p,.tl .it>ul,.tl .it>.tags{margin-left:0}}
 </style>
 
 </head>
@@ -216,15 +227,15 @@ section .sub{text-align:center}
 
 <section id="experience"><p class="eb">Experience</p><h2>Work experience</h2>
 <div class="tl">
-<div class="it"><div class="dt">NOV 2026 – PRESENT</div><h3>Junior Quality Assurance Engineer</h3><div class="o"><a href="https://www.dsinnovators.com/">Dynamic Solution Innovators (DSi)</a></div>
+<div class="it"><div class="ih"><span class="lg tight"><img src="images/logos/dsi.svg" alt="DSi logo" width="80" height="48" loading="lazy"></span><div class="hm"><h3>Junior Quality Assurance Engineer</h3><div class="o"><a href="https://www.dsinnovators.com/">Dynamic Solution Innovators (DSi)</a></div></div><div class="dt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>NOV 2026 – PRESENT</div></div>
 <p><b class="lb">Project:</b> <a class="dl" href="https://www.infoimageinc.com/">InfoImage</a>, a US-based customer communication and document delivery platform for businesses.</p>
 <ul class="ar"><li>Designed and wrote test cases for the Message Manager, Job Status, User Management and Account Management modules, covering functional flows, validations and edge cases.</li><li>Performed regression, sanity and smoke testing across releases to verify new builds and confirm that existing functionality remained stable.</li><li>Tested APIs with Postman, and managed test cases, test cycles and defect tracking with Zephyr and Jira.</li></ul>
 <div class="tags sm"><span>Jira</span><span>Zephyr</span><span>Postman</span><span>API Testing</span><span>Regression Testing</span><span>Sanity Testing</span><span>Smoke Testing</span><span>Test Case Design</span></div></div>
-<div class="it"><div class="dt">MAR 2026 – OCT 2026</div><h3>Intern, SQA</h3><div class="o"><a href="https://research.samsung.com/srbd">Samsung R&amp;D Institute Bangladesh Ltd. (SRBD)</a></div>
+<div class="it"><div class="ih"><span class="lg wide"><img src="images/logos/samsung.png" alt="Samsung logo" width="132" height="20" loading="lazy"></span><div class="hm"><h3>Intern, SQA</h3><div class="o"><a href="https://research.samsung.com/srbd">Samsung R&amp;D Institute Bangladesh Ltd. (SRBD)</a></div></div><div class="dt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>MAR 2026 – OCT 2026</div></div>
 <ul class="ar"><li><b class="lb">Samsung Notes:</b> end-to-end QA of an app used by millions of users (4.6+ rating), with manual, functional, regression, exploratory and performance testing across releases. Covered Landscape Note, Sticky Note, AI Note Assist, S Pen, voice recording and cloud sync.</li><li>Identified and documented 240 defects in PLM with reproduction steps, logs and severity analysis, measured launch time and stability, and verified fixes with developers.</li><li><b class="lb">Galaxy Wearable and Fit4:</b> tested the Galaxy Fit4 and Galaxy Wearable plugins across Galaxy Watch4 to Watch8, validating device compatibility, synchronization and core wearable functionality. Documented 50+ software issues.</li></ul></div>
-<div class="it"><div class="dt">JUN 2024 – SEP 2025</div><h3>Coding Instructor</h3><div class="o"><a class="dl" href="https://www.coderpals.com/">CoderPals</a></div>
+<div class="it"><div class="ih"><span class="lg mono"><b>CP</b></span><div class="hm"><h3>Coding Instructor</h3><div class="o"><a class="dl" href="https://www.coderpals.com/">CoderPals</a></div></div><div class="dt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>JUN 2024 – SEP 2025</div></div>
 <ul class="ar"><li>Designed and developed a structured Python curriculum for students aged 5 to 18, covering programming fundamentals, problem-solving and projects.</li></ul></div>
-<div class="it"><div class="dt">FEB 2024 – JUL 2025</div><h3>Front-End Designer</h3><div class="o"><a class="dl" href="https://course.banglarmath.com/">Banglar Math Platform</a> · Shonkhar Pyramid</div>
+<div class="it"><div class="ih"><span class="lg"><img src="images/logos/banglarmath.png" alt="Banglar Math logo" width="250" height="250" loading="lazy"></span><div class="hm"><h3>Front-End Designer</h3><div class="o"><a class="dl" href="https://course.banglarmath.com/">Banglar Math Platform</a> · Shonkhar Pyramid</div></div><div class="dt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>FEB 2024 – JUL 2025</div></div>
 <ul class="ar"><li>Designed and developed the game board and user input forms for an interactive educational game, with responsive and user-friendly interfaces.</li></ul></div>
 </div></section>
 
